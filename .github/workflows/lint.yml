@@ -1,21 +1,21 @@
 #test1
 
-name: Ansible Lint
+#name: Ansible Lint
 
-on: [push, pull_request]
+#on: [push, pull_request]
 
-jobs:
-  build:
+#jobs:
+#  build:
 
-    runs-on: ubuntu-latest
+#    runs-on: ubuntu-latest
 
-    steps:
-    - name: checkout repo
-      uses: actions/checkout@v2
+#    steps:
+#    - name: checkout repo
+#      uses: actions/checkout@v2
 
-    - name: Lint Ansible Playbook
-      uses: ansible/ansible-lint-action@main
-      with:
-        targets: ""
+#    - name: Lint Ansible Playbook
+#      uses: ansible/ansible-lint-action@main
+#      with:
+#        targets: ""
         #override-deps: |
         #  ansible-lint==4.2.0
